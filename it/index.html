@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Sociocracy Experiment | Où les organisations découvrent leur potentiel</title>
-    <meta name="description" content="Accompagnement expert pour l'adoption de pratiques sociocratiques dans votre organisation. Transformez votre façon de collaborer grâce à des méthodes de gouvernance éprouvées.">
+    <title>The Sociocracy Experiment | Dove le organizzazioni scoprono il loro potenziale</title>
+    <meta name="description"
+        content="Accompagnamento per l'adozione di pratiche sociocratiche nella vostra organizzazione. Trasforma il tuo modo di lavorare grazie a metodi di governance consolidati.">
     <style>
         * {
             margin: 0;
@@ -112,14 +114,54 @@
             animation: pulse 3s ease-in-out infinite;
         }
 
-        .nav-circle-1 { width: 10px; height: 10px; top: 15px; left: 15px; border-color: #667eea; }
-        .nav-circle-2 { width: 20px; height: 20px; top: 10px; left: 10px; border-color: #764ba2; animation-delay: 0.5s; }
-        .nav-circle-3 { width: 30px; height: 30px; top: 5px; left: 5px; border-color: #9c88ff; animation-delay: 1s; }
-        .nav-circle-4 { width: 40px; height: 40px; top: 0; left: 0; border-color: #667eea; opacity: 0.6; animation-delay: 1.5s; }
+        .nav-circle-1 {
+            width: 10px;
+            height: 10px;
+            top: 15px;
+            left: 15px;
+            border-color: #667eea;
+        }
+
+        .nav-circle-2 {
+            width: 20px;
+            height: 20px;
+            top: 10px;
+            left: 10px;
+            border-color: #764ba2;
+            animation-delay: 0.5s;
+        }
+
+        .nav-circle-3 {
+            width: 30px;
+            height: 30px;
+            top: 5px;
+            left: 5px;
+            border-color: #9c88ff;
+            animation-delay: 1s;
+        }
+
+        .nav-circle-4 {
+            width: 40px;
+            height: 40px;
+            top: 0;
+            left: 0;
+            border-color: #667eea;
+            opacity: 0.6;
+            animation-delay: 1.5s;
+        }
 
         @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.8; }
-            50% { transform: scale(1.05); opacity: 1; }
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+
+            50% {
+                transform: scale(1.05);
+                opacity: 1;
+            }
         }
 
         .logo-text {
@@ -186,8 +228,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
         }
 
         .hero-container {
@@ -235,7 +284,7 @@
 
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         }
 
         .btn-secondary {
@@ -308,7 +357,7 @@
             background: white;
             padding: 1.5rem;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
 
@@ -345,7 +394,7 @@
 
         .service-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
 
         .service-icon {
@@ -383,7 +432,7 @@
         .step-number {
             width: 60px;
             height: 60px;
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.2);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -410,7 +459,7 @@
             background: white;
             padding: 2rem;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             position: relative;
         }
 
@@ -441,7 +490,7 @@
         .contact-form {
             max-width: 600px;
             margin: 3rem auto 0;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             padding: 2rem;
             border-radius: 20px;
             backdrop-filter: blur(10px);
@@ -465,7 +514,7 @@
             border: none;
             border-radius: 10px;
             font-size: 1rem;
-            background: rgba(255,255,255,0.9);
+            background: rgba(255, 255, 255, 0.9);
         }
 
         .form-group textarea {
@@ -527,20 +576,34 @@
         }
 
         @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-            40% { transform: translateX(-50%) translateY(-10px); }
-            60% { transform: translateX(-50%) translateY(-5px); }
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateX(-50%) translateY(0);
+            }
+
+            40% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+
+            60% {
+                transform: translateX(-50%) translateY(-5px);
+            }
         }
     </style>
 </head>
+
 <body>
     <!-- Language Selector -->
     <div class="language-selector">
-        <a href="index.html" class="lang-option active">
+        <a href="../index.html" class="lang-option">
             <span class="flag fr"></span>
             <span>FR</span>
         </a>
-        <a href="it/index.html" class="lang-option">
+        <a href="it/index.html" class="lang-option active">
             <span class="flag it"></span>
             <span>IT</span>
         </a>
@@ -559,28 +622,30 @@
                 <div class="logo-text">THE SOCIOCRACY EXPERIMENT</div>
             </div>
             <ul class="nav-links">
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#approach">Approche</a></li>
-                <li><a href="#testimonials">Témoignages</a></li>
+                <li><a href="#about">Chi siamo</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#approach">Approccio</a></li>
+                <li><a href="#testimonials">Testimonianze</a></li>
             </ul>
-            <a href="#contact" class="cta-button">Échangeons</a>
+            <a href="#contact" class="cta-button">Parliamone</a>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-container">
-            <h1>Abandonne les vieux schémas.<br>Découvre la force de la Sociocratie.</h1>
-            <p class="hero-subtitle">Accompagnement expert et conseil pour l'adoption de pratiques sociocratiques dans votre organisation. Transformez votre façon de collaborer, de prendre des décisions et de libérer le potentiel de chacun·e.</p>
+            <h1>Abbandona i vecchi schemi.<br>Scopri la forza della Sociocrazia.</h1>
+            <p class="hero-subtitle">Accompagnamento esperto e consulenza per l'adozione di pratiche sociocratiche nella
+                vostra organizzazione. Trasforma il vostro modo di collaborare, prendere decisioni e liberare il
+                potenziale di ciascuno.</p>
             <div class="hero-cta">
-                <a href="#about" class="btn-primary">Découvre la Sociocratie</a>
-                <a href="#contact" class="btn-secondary">Commence l'Expérience</a>
+                <a href="#about" class="btn-primary">Scopri la Sociocrazia</a>
+                <a href="#contact" class="btn-secondary">Inizia l'Esperimento</a>
             </div>
         </div>
         <div class="scroll-indicator">
             <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
-                <path d="M12 16l-6-6 1.41-1.41L12 13.17l4.59-4.58L18 10z"/>
+                <path d="M12 16l-6-6 1.41-1.41L12 13.17l4.59-4.58L18 10z" />
             </svg>
         </div>
     </section>
@@ -588,33 +653,42 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">Pourquoi la Sociocratie compte</h2>
+            <h2 class="section-title">Perché la Sociocrazia è importante</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Nos manières de travailler sont souvent obsolètes</h3>
-                    <p>Beaucoup d'organisations restent figées dans des structures hiérarchiques rigides, qui freinent créativité, engagement et initiative. Les personnes se sentent désemparées, les décisions sont lentes, et l'innovation en souffre.</p>
-                    
-                    <p>La sociocratie, née aux Pays-Bas et utilisée dans le monde entier, est une technologie sociale qui propose des pratiques éprouvées pour une collaboration plus efficace et inclusive : pouvoir partagé, écoute de chacun·e.</p>
-                    
-                    <p>Avec Sociocratie 3.0, la version moderne et agile, nous aidons les organisations à libérer le potentiel de chacun·e, pour innover ensemble et s'adapter rapidement aux changements.</p>
+                    <h3>I nostri modi di lavorare sono spesso obsoleti</h3>
+                    <p>Molte organizzazioni rimangono bloccate in strutture gerarchiche rigide, che frenano creatività,
+                        coinvolgimento e iniziativa. Le persone si sentono smarrite, le decisioni sono lente e
+                        l'innovazione ne soffre.</p>
+
+                    <p>La sociocrazia, nata nei Paesi Bassi e utilizzata in tutto il mondo, è una tecnologia sociale che
+                        propone pratiche consolidate per una collaborazione più efficace e inclusiva: potere condiviso,
+                        ascolto di ciascuno.</p>
+
+                    <p>Con Sociocrazia 3.0, la versione moderna e agile, aiutiamo le organizzazioni a liberare il
+                        potenziale di ciascuno, per innovare insieme e adattarsi rapidamente ai cambiamenti.</p>
                 </div>
-                
+
                 <div class="sociocracy-features">
                     <div class="feature">
-                        <h4>🔄 Cercles</h4>
-                        <p>Équipes auto-organisées avec un objectif clair et l'autorité de prendre des décisions dans leur domaine.</p>
+                        <h4>🔄 Cerchi</h4>
+                        <p>Team auto-organizzati con un obiettivo chiaro e l'autorità di prendere decisioni nel loro
+                            dominio.</p>
                     </div>
                     <div class="feature">
-                        <h4>🔗 Double Lien</h4>
-                        <p>Connexion bidirectionnelle entre les cercles assurant que l'information circule dans toute l'organisation.</p>
+                        <h4>🔗 Doppio Collegamento</h4>
+                        <p>Connessione bidirezionale tra i cerchi che assicura che l'informazione circoli in tutta
+                            l'organizzazione.</p>
                     </div>
                     <div class="feature">
-                        <h4>✋ Prise de décision par Consentement</h4>
-                        <p>Les décisions avancent quand il n'y a pas d'objections motivées, s'assurant que la voix de chacun·e compte.</p>
+                        <h4>✋ Decisione per Consenso</h4>
+                        <p>Le decisioni procedono quando non ci sono obiezioni motivate, assicurandosi che la voce di
+                            ciascuno conti.</p>
                     </div>
                     <div class="feature">
-                        <h4>🗳️ Élection des Rôles</h4>
-                        <p>Processus transparent pour sélectionner les personnes pour les rôles basé sur la compétence et l'adéquation.</p>
+                        <h4>🗳️ Elezione dei Ruoli</h4>
+                        <p>Processo trasparente per selezionare le persone per i ruoli basato sulla competenza e
+                            l'idoneità.</p>
                     </div>
                 </div>
             </div>
@@ -624,22 +698,25 @@
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
-            <h2 class="section-title">Comment nous travaillons ensemble</h2>
+            <h2 class="section-title">Come lavoriamo insieme</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🎯</div>
-                    <h3>Évaluation & Stratégie</h3>
-                    <p>Nous commençons par comprendre vos défis actuels et concevons une feuille de route sur mesure pour implémenter les pratiques sociocratiques dans votre contexte spécifique.</p>
+                    <h3>Valutazione & Strategia</h3>
+                    <p>Iniziamo comprendendo le vostre sfide attuali e concepiamo una roadmap su misura per implementare
+                        le pratiche sociocratiche nel vostro contesto specifico.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🛠️</div>
-                    <h3>Accompagnement à l'implémentation</h3>
-                    <p>Guidance étape par étape à travers le processus d'adoption, avec facilitation pratique et coaching pour assurer des transitions en douceur.</p>
+                    <h3>Accompagnamento all'implementazione</h3>
+                    <p>Guida passo dopo passo attraverso il processo di adozione, con facilitazione pratica e coaching
+                        per assicurare transizioni fluide.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">📈</div>
-                    <h3>Apprentissage Continu</h3>
-                    <p>Soutien continu à travers des points réguliers, formation avancée, et adaptation basée sur vos besoins évolutifs et apprentissages.</p>
+                    <h3>Apprendimento Continuo</h3>
+                    <p>Supporto continuativo attraverso check-in regolari, formazione avanzata e adattamenti basati sui
+                        vostri bisogni in evoluzione e apprendimenti.</p>
                 </div>
             </div>
         </div>
@@ -648,24 +725,29 @@
     <!-- Approach Section -->
     <section class="approach" id="approach">
         <div class="container">
-            <h2 class="section-title">Mon Approche</h2>
-            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">Tout commence par votre besoin de changement et le courage d'explorer des modes de gouvernance plus collaboratifs et inclusifs comme la sociocratie.</p>
-            
+            <h2 class="section-title">Il Mio Approccio</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">Tutto inizia dal vostro bisogno di
+                cambiamento e dal coraggio di esplorare modi di governance più collaborativi e inclusivi come la
+                sociocrazia.</p>
+
             <div class="approach-steps">
                 <div class="step">
                     <div class="step-number">1</div>
-                    <h3>Écouter & Comprendre</h3>
-                    <p>Nous explorons ensemble votre réalité actuelle, vos ressources et vos ambitions pour concevoir une trajectoire sur mesure du point A au point B.</p>
+                    <h3>Ascoltare & Comprendere</h3>
+                    <p>Esploriamo insieme la vostra realtà attuale, le vostre risorse e le vostre ambizioni per
+                        concepire una traiettoria su misura dal punto A al punto B.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
-                    <h3>Expérimenter & Apprendre</h3>
-                    <p>Nous implémentons de petits changements dans une dynamique agile, faite de petites implémentations et d'apprentissage continu, découvrant ce qui fonctionne pour vous.</p>
+                    <h3>Sperimentare & Apprendere</h3>
+                    <p>Implementiamo piccoli cambiamenti in una dinamica agile, fatta di piccole implementazioni e
+                        apprendimento continuo, scoprendo cosa funziona per voi.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
-                    <h3>Adapter & Déployer</h3>
-                    <p>Mon rôle est de vous aider à découvrir les pratiques adaptées à vos besoins, en éclairant les nuances et conséquences de chaque choix.</p>
+                    <h3>Adattare & Diffondere</h3>
+                    <p>Il mio ruolo è aiutarvi a scoprire le pratiche adatte ai vostri bisogni, illuminando le sfumature
+                        e conseguenze di ogni scelta.</p>
                 </div>
             </div>
         </div>
@@ -674,18 +756,27 @@
     <!-- Testimonials Section -->
     <section class="testimonials" id="testimonials">
         <div class="container">
-            <h2 class="section-title">Témoignages de réussite</h2>
+            <h2 class="section-title">Testimonianze di successo</h2>
             <div class="testimonials-grid">
                 <div class="testimonial">
-                    <p>"Le facilitateur a été très clair, consciencieux et enthousiaste dans sa manière de proposer la sociocratie au sein de notre jeune organisation. Il a réussi à l'introduire dans un groupe déjà existant, en minimisant les résistances, en avançant étape par étape, et en expliquant toujours les concepts avec précision."</p>
+                    <p>"Il facilitatore è stato molto chiaro, coscienzioso ed entusiasta nel suo modo di proporre la
+                        sociocrazia all'interno della nostra giovane organizzazione. È riuscito a introdurla in un
+                        gruppo già esistente, minimizzando le resistenze, avanzando passo dopo passo, e spiegando sempre
+                        i concetti con precisione."</p>
                     <div class="testimonial-author">— Federico Felici, Mankind Project Italia</div>
                 </div>
                 <div class="testimonial">
-                    <p>"Nous avons expérimenté une facilitation pour réfléchir en termes sociocratiques : grande capacité à structurer et systématiser. J'ai apprécié la clarté et la lucidité avec lesquelles les concepts ont été reformulés pour nous guider dans le processus. Structuré et précis avec une écoute consciente et active."</p>
+                    <p>"Abbiamo sperimentato una facilitazione per riflettere in termini sociocratici: grande capacità
+                        di strutturare e sistematizzare. Ho apprezzato la chiarezza e la lucidità con cui i concetti
+                        sono stati riformulati per guidarci nel processo. Strutturato e preciso con un ascolto
+                        consapevole e attivo."</p>
                     <div class="testimonial-author">— Emanuela Rossitto, Onda Italia</div>
                 </div>
                 <div class="testimonial">
-                    <p>"Il a su s'adapter finement à notre culture et à notre rythme. Grâce à son approche progressive et à son écoute, la sociocratie s'est intégrée naturellement dans notre manière de fonctionner. Sa présence discrète mais structurante a facilité des changements concrets et durables."</p>
+                    <p>"Ha saputo adattarsi finemente alla nostra cultura e al nostro ritmo. Grazie al suo approccio
+                        progressivo e al suo ascolto, la sociocrazia si è integrata naturalmente nel nostro modo di
+                        funzionare. La sua presenza discreta ma strutturante ha facilitato cambiamenti concreti e
+                        duraturi."</p>
                     <div class="testimonial-author">— Damiano Furlan, Uomini Consapevoli</div>
                 </div>
             </div>
@@ -695,13 +786,15 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
-            <h2 class="section-title">Prêt·e à commencer l'Expérience ?</h2>
-            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Réservez un appel découverte gratuit de 30 minutes pour explorer comment nous pouvons vous aider à avancer plus rapidement et efficacement vers vos objectifs.</p>
-            
+            <h2 class="section-title">Pronti ad iniziare l'Esperimento?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Prenotate una chiamata di scoperta gratuita di 30 minuti
+                per esplorare come possiamo aiutarvi ad avanzare più rapidamente ed efficacemente verso i vostri
+                obiettivi.</p>
+
             <div class="contact-form">
                 <form>
                     <div class="form-group">
-                        <label for="name">Nom</label>
+                        <label for="name">Nome</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
@@ -709,14 +802,17 @@
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="organization">Organisation</label>
+                        <label for="organization">Organizzazione</label>
                         <input type="text" id="organization" name="organization">
                     </div>
                     <div class="form-group">
-                        <label for="message">Parlez-nous de vos défis</label>
-                        <textarea id="message" name="message" placeholder="Quels défis de gouvernance votre organisation rencontre-t-elle ? Qu'aimeriez-vous accomplir ?"></textarea>
+                        <label for="message">Parlateci delle vostre sfide</label>
+                        <textarea id="message" name="message"
+                            placeholder="Quali sfide di governance incontra la vostra organizzazione? Cosa vorreste realizzare?"></textarea>
                     </div>
-                    <button type="submit" class="btn-primary" style="background: white; color: #667eea; width: 100%;">Planifier un appel découverte gratuit</button>
+                    <button type="submit" class="btn-primary"
+                        style="background: white; color: #667eea; width: 100%;">Pianifica una chiamata di scoperta
+                        gratuita</button>
                 </form>
             </div>
         </div>
@@ -725,7 +821,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 The Sociocracy Experiment. Où les organisations découvrent leur potentiel.</p>
+            <p>&copy; 2025 The Sociocracy Experiment. Dove le organizzazioni scoprono il loro potenziale.</p>
         </div>
     </footer>
 
@@ -754,9 +850,9 @@
         });
 
         // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
+        document.querySelector('form').addEventListener('submit', function (e) {
             e.preventDefault();
-            alert('Merci pour votre intérêt ! Ceci est un formulaire de démonstration. Dans une vraie implémentation, ceci enverrait votre message et planifierait un appel découverte.');
+            alert('Grazie per il vostro interesse! Questo è un modulo di dimostrazione. In una vera implementazione, questo invierebbe il vostro messaggio e pianificherebbe una chiamata di scoperta.');
         });
 
         // Animate elements on scroll
@@ -778,4 +874,5 @@
         });
     </script>
 </body>
+
 </html>
