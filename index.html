@@ -74,6 +74,43 @@
             background: linear-gradient(to right, #009246 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ce2b37 66.66%);
         }
 
+        .flag.en {
+            background: #012169;
+            position: relative;
+        }
+
+        .flag.en::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                linear-gradient(45deg, transparent 40%, #ffffff 40%, #ffffff 45%, transparent 45%),
+                linear-gradient(-45deg, transparent 40%, #ffffff 40%, #ffffff 45%, transparent 45%),
+                linear-gradient(45deg, transparent 55%, #ffffff 55%, #ffffff 60%, transparent 60%),
+                linear-gradient(-45deg, transparent 55%, #ffffff 55%, #ffffff 60%, transparent 60%);
+        }
+
+        .flag.en::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                linear-gradient(45deg, transparent 30%, #c8102e 30%, #c8102e 35%, transparent 35%),
+                linear-gradient(-45deg, transparent 30%, #c8102e 30%, #c8102e 35%, transparent 35%),
+                linear-gradient(45deg, transparent 65%, #c8102e 65%, #c8102e 70%, transparent 70%),
+                linear-gradient(-45deg, transparent 65%, #c8102e 65%, #c8102e 70%, transparent 70%),
+                linear-gradient(0deg, transparent 43%, #ffffff 43%, #ffffff 57%, transparent 57%),
+                linear-gradient(90deg, transparent 43%, #ffffff 43%, #ffffff 57%, transparent 57%),
+                linear-gradient(0deg, transparent 46%, #c8102e 46%, #c8102e 54%, transparent 54%),
+                linear-gradient(90deg, transparent 46%, #c8102e 46%, #c8102e 54%, transparent 54%);
+        }
+
         /* Header */
         .header {
             position: fixed;
@@ -606,6 +643,10 @@
         <a href="it/index.html" class="lang-option">
             <span class="flag it"></span>
             <span>IT</span>
+        </a>
+        <a href="en/index.html" class="lang-option">
+            <span class="flag en"></span>
+            <span>EN</span>
         </a>
     </div>
 
