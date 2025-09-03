@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sociocracy Experiment | Où les organisations découvrent leur potentiel</title>
-    <meta name="description" content="Accompagnement expert pour l'adoption de pratiques sociocratiques dans votre organisation. Transformez votre façon de collaborer grâce à des méthodes de gouvernance éprouvées.">
+    <meta name="description"
+        content="Accompagnement expert pour l'adoption de pratiques sociocratiques dans votre organisation. Transformez votre façon de collaborer grâce à des méthodes de gouvernance éprouvées.">
     <style>
         * {
             margin: 0;
@@ -112,14 +114,54 @@
             animation: pulse 3s ease-in-out infinite;
         }
 
-        .nav-circle-1 { width: 10px; height: 10px; top: 15px; left: 15px; border-color: #667eea; }
-        .nav-circle-2 { width: 20px; height: 20px; top: 10px; left: 10px; border-color: #764ba2; animation-delay: 0.5s; }
-        .nav-circle-3 { width: 30px; height: 30px; top: 5px; left: 5px; border-color: #9c88ff; animation-delay: 1s; }
-        .nav-circle-4 { width: 40px; height: 40px; top: 0; left: 0; border-color: #667eea; opacity: 0.6; animation-delay: 1.5s; }
+        .nav-circle-1 {
+            width: 10px;
+            height: 10px;
+            top: 15px;
+            left: 15px;
+            border-color: #667eea;
+        }
+
+        .nav-circle-2 {
+            width: 20px;
+            height: 20px;
+            top: 10px;
+            left: 10px;
+            border-color: #764ba2;
+            animation-delay: 0.5s;
+        }
+
+        .nav-circle-3 {
+            width: 30px;
+            height: 30px;
+            top: 5px;
+            left: 5px;
+            border-color: #9c88ff;
+            animation-delay: 1s;
+        }
+
+        .nav-circle-4 {
+            width: 40px;
+            height: 40px;
+            top: 0;
+            left: 0;
+            border-color: #667eea;
+            opacity: 0.6;
+            animation-delay: 1.5s;
+        }
 
         @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.8; }
-            50% { transform: scale(1.05); opacity: 1; }
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+
+            50% {
+                transform: scale(1.05);
+                opacity: 1;
+            }
         }
 
         .logo-text {
@@ -186,8 +228,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
         }
 
         .hero-container {
@@ -235,7 +284,7 @@
 
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         }
 
         .btn-secondary {
@@ -308,7 +357,7 @@
             background: white;
             padding: 1.5rem;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
 
@@ -345,7 +394,7 @@
 
         .service-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
 
         .service-icon {
@@ -383,7 +432,7 @@
         .step-number {
             width: 60px;
             height: 60px;
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.2);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -410,7 +459,7 @@
             background: white;
             padding: 2rem;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             position: relative;
         }
 
@@ -441,7 +490,7 @@
         .contact-form {
             max-width: 600px;
             margin: 3rem auto 0;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             padding: 2rem;
             border-radius: 20px;
             backdrop-filter: blur(10px);
@@ -465,7 +514,7 @@
             border: none;
             border-radius: 10px;
             font-size: 1rem;
-            background: rgba(255,255,255,0.9);
+            background: rgba(255, 255, 255, 0.9);
         }
 
         .form-group textarea {
@@ -527,12 +576,26 @@
         }
 
         @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-            40% { transform: translateX(-50%) translateY(-10px); }
-            60% { transform: translateX(-50%) translateY(-5px); }
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateX(-50%) translateY(0);
+            }
+
+            40% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+
+            60% {
+                transform: translateX(-50%) translateY(-5px);
+            }
         }
     </style>
 </head>
+
 <body>
     <!-- Language Selector -->
     <div class="language-selector">
@@ -572,7 +635,9 @@
     <section class="hero">
         <div class="hero-container">
             <h1>Abandonne les vieux schémas.<br>Découvre la force de la Sociocratie.</h1>
-            <p class="hero-subtitle">Accompagnement expert et conseil pour l'adoption de pratiques sociocratiques dans votre organisation. Transformez votre façon de collaborer, de prendre des décisions et de libérer le potentiel de chacun·e.</p>
+            <p class="hero-subtitle">Accompagnement expert et conseil pour l'adoption de pratiques sociocratiques dans
+                votre organisation. Transformez votre façon de collaborer, de prendre des décisions et de libérer le
+                potentiel de chacun·e.</p>
             <div class="hero-cta">
                 <a href="#about" class="btn-primary">Découvre la Sociocratie</a>
                 <a href="#contact" class="btn-secondary">Commence l'Expérience</a>
@@ -580,7 +645,7 @@
         </div>
         <div class="scroll-indicator">
             <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
-                <path d="M12 16l-6-6 1.41-1.41L12 13.17l4.59-4.58L18 10z"/>
+                <path d="M12 16l-6-6 1.41-1.41L12 13.17l4.59-4.58L18 10z" />
             </svg>
         </div>
     </section>
@@ -588,33 +653,42 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">Pourquoi la Sociocratie compte</h2>
+            <h2 class="section-title">Pourquoi la Sociocratie</h2>
             <div class="about-content">
                 <div class="about-text">
                     <h3>Nos manières de travailler sont souvent obsolètes</h3>
-                    <p>Beaucoup d'organisations restent figées dans des structures hiérarchiques rigides, qui freinent créativité, engagement et initiative. Les personnes se sentent désemparées, les décisions sont lentes, et l'innovation en souffre.</p>
-                    
-                    <p>La sociocratie, née aux Pays-Bas et utilisée dans le monde entier, est une technologie sociale qui propose des pratiques éprouvées pour une collaboration plus efficace et inclusive : pouvoir partagé, écoute de chacun·e.</p>
-                    
-                    <p>Avec Sociocratie 3.0, la version moderne et agile, nous aidons les organisations à libérer le potentiel de chacun·e, pour innover ensemble et s'adapter rapidement aux changements.</p>
+                    <p>Beaucoup d'organisations restent figées dans des structures hiérarchiques rigides, qui freinent
+                        créativité, engagement et initiative. Les personnes se sentent désemparées, les décisions sont
+                        lentes, et l'innovation en souffre.</p>
+
+                    <p>La sociocratie, née aux Pays-Bas et utilisée dans le monde entier, est une technologie sociale
+                        qui propose des pratiques éprouvées pour une collaboration plus efficace et inclusive : pouvoir
+                        partagé, écoute de chacun·e.</p>
+
+                    <p>Avec Sociocratie 3.0, la version moderne et agile, nous aidons les organisations à libérer le
+                        potentiel de chacun·e, pour innover ensemble et s'adapter rapidement aux changements.</p>
                 </div>
-                
+
                 <div class="sociocracy-features">
                     <div class="feature">
                         <h4>🔄 Cercles</h4>
-                        <p>Équipes auto-organisées avec un objectif clair et l'autorité de prendre des décisions dans leur domaine.</p>
+                        <p>Équipes auto-organisées avec un objectif clair et l'autorité de prendre des décisions dans
+                            leur domaine.</p>
                     </div>
                     <div class="feature">
                         <h4>🔗 Double Lien</h4>
-                        <p>Connexion bidirectionnelle entre les cercles assurant que l'information circule dans toute l'organisation.</p>
+                        <p>Connexion bidirectionnelle entre les cercles assurant que l'information circule dans toute
+                            l'organisation.</p>
                     </div>
                     <div class="feature">
                         <h4>✋ Prise de décision par Consentement</h4>
-                        <p>Les décisions avancent quand il n'y a pas d'objections motivées, s'assurant que la voix de chacun·e compte.</p>
+                        <p>Les décisions avancent quand il n'y a pas d'objections motivées, s'assurant que la voix de
+                            chacun·e compte.</p>
                     </div>
                     <div class="feature">
                         <h4>🗳️ Élection des Rôles</h4>
-                        <p>Processus transparent pour sélectionner les personnes pour les rôles basé sur la compétence et l'adéquation.</p>
+                        <p>Processus transparent pour sélectionner les personnes pour les rôles basé sur la compétence
+                            et l'adéquation.</p>
                     </div>
                 </div>
             </div>
@@ -629,17 +703,20 @@
                 <div class="service-card">
                     <div class="service-icon">🎯</div>
                     <h3>Évaluation & Stratégie</h3>
-                    <p>Nous commençons par comprendre vos défis actuels et concevons une feuille de route sur mesure pour implémenter les pratiques sociocratiques dans votre contexte spécifique.</p>
+                    <p>Nous commençons par comprendre vos défis actuels et concevons une feuille de route sur mesure
+                        pour implémenter les pratiques sociocratiques dans votre contexte spécifique.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🛠️</div>
                     <h3>Accompagnement à l'implémentation</h3>
-                    <p>Guidance étape par étape à travers le processus d'adoption, avec facilitation pratique et coaching pour assurer des transitions en douceur.</p>
+                    <p>Guidance étape par étape à travers le processus d'adoption, avec facilitation pratique et
+                        coaching pour assurer des transitions en douceur.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">📈</div>
                     <h3>Apprentissage Continu</h3>
-                    <p>Soutien continu à travers des points réguliers, formation avancée, et adaptation basée sur vos besoins évolutifs et apprentissages.</p>
+                    <p>Soutien continu à travers des points réguliers, formation avancée, et adaptation basée sur vos
+                        besoins évolutifs et apprentissages.</p>
                 </div>
             </div>
         </div>
@@ -649,23 +726,28 @@
     <section class="approach" id="approach">
         <div class="container">
             <h2 class="section-title">Mon Approche</h2>
-            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">Tout commence par votre besoin de changement et le courage d'explorer des modes de gouvernance plus collaboratifs et inclusifs comme la sociocratie.</p>
-            
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem;">Tout commence par votre besoin de
+                changement et le courage d'explorer des modes de gouvernance plus collaboratifs et inclusifs comme la
+                sociocratie.</p>
+
             <div class="approach-steps">
                 <div class="step">
                     <div class="step-number">1</div>
                     <h3>Écouter & Comprendre</h3>
-                    <p>Nous explorons ensemble votre réalité actuelle, vos ressources et vos ambitions pour concevoir une trajectoire sur mesure du point A au point B.</p>
+                    <p>Nous explorons ensemble votre réalité actuelle, vos ressources et vos ambitions pour concevoir
+                        une trajectoire sur mesure du point A au point B.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
                     <h3>Expérimenter & Apprendre</h3>
-                    <p>Nous implémentons de petits changements dans une dynamique agile, faite de petites implémentations et d'apprentissage continu, découvrant ce qui fonctionne pour vous.</p>
+                    <p>Nous implémentons de petits changements dans une dynamique agile, faite de petites
+                        implémentations et d'apprentissage continu, découvrant ce qui fonctionne pour vous.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
                     <h3>Adapter & Déployer</h3>
-                    <p>Mon rôle est de vous aider à découvrir les pratiques adaptées à vos besoins, en éclairant les nuances et conséquences de chaque choix.</p>
+                    <p>Mon rôle est de vous aider à découvrir les pratiques adaptées à vos besoins, en éclairant les
+                        nuances et conséquences de chaque choix.</p>
                 </div>
             </div>
         </div>
@@ -677,15 +759,23 @@
             <h2 class="section-title">Témoignages de réussite</h2>
             <div class="testimonials-grid">
                 <div class="testimonial">
-                    <p>"Le facilitateur a été très clair, consciencieux et enthousiaste dans sa manière de proposer la sociocratie au sein de notre jeune organisation. Il a réussi à l'introduire dans un groupe déjà existant, en minimisant les résistances, en avançant étape par étape, et en expliquant toujours les concepts avec précision."</p>
+                    <p>"Le facilitateur a été très clair, consciencieux et enthousiaste dans sa manière de proposer la
+                        sociocratie au sein de notre jeune organisation. Il a réussi à l'introduire dans un groupe déjà
+                        existant, en minimisant les résistances, en avançant étape par étape, et en expliquant toujours
+                        les concepts avec précision."</p>
                     <div class="testimonial-author">— Federico Felici, Mankind Project Italia</div>
                 </div>
                 <div class="testimonial">
-                    <p>"Nous avons expérimenté une facilitation pour réfléchir en termes sociocratiques : grande capacité à structurer et systématiser. J'ai apprécié la clarté et la lucidité avec lesquelles les concepts ont été reformulés pour nous guider dans le processus. Structuré et précis avec une écoute consciente et active."</p>
+                    <p>"Nous avons expérimenté une facilitation pour réfléchir en termes sociocratiques : grande
+                        capacité à structurer et systématiser. J'ai apprécié la clarté et la lucidité avec lesquelles
+                        les concepts ont été reformulés pour nous guider dans le processus. Structuré et précis avec une
+                        écoute consciente et active."</p>
                     <div class="testimonial-author">— Emanuela Rossitto, Onda Italia</div>
                 </div>
                 <div class="testimonial">
-                    <p>"Il a su s'adapter finement à notre culture et à notre rythme. Grâce à son approche progressive et à son écoute, la sociocratie s'est intégrée naturellement dans notre manière de fonctionner. Sa présence discrète mais structurante a facilité des changements concrets et durables."</p>
+                    <p>"Il a su s'adapter finement à notre culture et à notre rythme. Grâce à son approche progressive
+                        et à son écoute, la sociocratie s'est intégrée naturellement dans notre manière de fonctionner.
+                        Sa présence discrète mais structurante a facilité des changements concrets et durables."</p>
                     <div class="testimonial-author">— Damiano Furlan, Uomini Consapevoli</div>
                 </div>
             </div>
@@ -696,8 +786,10 @@
     <section class="contact" id="contact">
         <div class="container">
             <h2 class="section-title">Prêt·e à commencer l'Expérience ?</h2>
-            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Réservez un appel découverte gratuit de 30 minutes pour explorer comment nous pouvons vous aider à avancer plus rapidement et efficacement vers vos objectifs.</p>
-            
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Réservez un appel découverte gratuit de 30 minutes pour
+                explorer comment nous pouvons vous aider à avancer plus rapidement et efficacement vers vos objectifs.
+            </p>
+
             <div class="contact-form">
                 <form>
                     <div class="form-group">
@@ -714,9 +806,12 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Parlez-nous de vos défis</label>
-                        <textarea id="message" name="message" placeholder="Quels défis de gouvernance votre organisation rencontre-t-elle ? Qu'aimeriez-vous accomplir ?"></textarea>
+                        <textarea id="message" name="message"
+                            placeholder="Quels défis de gouvernance votre organisation rencontre-t-elle ? Qu'aimeriez-vous accomplir ?"></textarea>
                     </div>
-                    <button type="submit" class="btn-primary" style="background: white; color: #667eea; width: 100%;">Planifier un appel découverte gratuit</button>
+                    <button type="submit" class="btn-primary"
+                        style="background: white; color: #667eea; width: 100%;">Planifier un appel découverte
+                        gratuit</button>
                 </form>
             </div>
         </div>
@@ -754,7 +849,7 @@
         });
 
         // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
+        document.querySelector('form').addEventListener('submit', function (e) {
             e.preventDefault();
             alert('Merci pour votre intérêt ! Ceci est un formulaire de démonstration. Dans une vraie implémentation, ceci enverrait votre message et planifierait un appel découverte.');
         });
@@ -778,4 +873,5 @@
         });
     </script>
 </body>
+
 </html>
